@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(to right, rgba(183, 33, 255, 0.8) 0%, rgba(33, 212, 253, 1) 100%), url("../img/background.jpeg") no-repeat center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+}
+
+.logo {
+    width: 5rem;
+    box-sizing: content-box;
+    padding-left: 3rem;
+    display: inline;
+}
+
+nav ul {
+    height: 5rem;
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    padding: 0 3rem;
+    line-height: 5rem;
+    animation: slideIn .5s forwards;
+}
+
+.nav-right {
+    margin-right: 6rem;
+}
+
+@keyframes slideIn {
+    from {}
+
+    to {
+        transform: translateX(0);
+    }
+}
