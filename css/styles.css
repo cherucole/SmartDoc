@@ -61,6 +61,89 @@ nav ul li {
     margin-right: 6rem;
 }
 
+.main {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero {
+    height: 80vh;
+    flex: 1;
+}
+
+.query {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.description {
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description h1 {
+    font-size: 3.5vw;
+    letter-spacing: 2px;
+    margin-right: -3px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.description p {
+    font-size: 1.6vw;
+    margin-bottom: 4rem;
+    font-weight: 100;
+    /* text-align: justify; */
+}
+
+input[type="submit"] {
+    background-color: rgba(253, 87, 191, 0);
+    color: #eee;
+    padding: 0.7rem 0.8rem;
+    cursor: pointer;
+    width: 10rem;
+    transition: background-color 650ms;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+textarea {
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+input[type="submit"]:hover {
+    color: #221e3f;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
 @keyframes slideIn {
     from {}
 
